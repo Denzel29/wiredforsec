@@ -1,0 +1,96 @@
+ /* Start of Header section */
+header{
+  padding: 2px;
+  width: 100%;
+  background-color: #0f2636;
+  height: 65px;
+  color: white;
+}
+
+header .row{
+  padding-top: 5px;
+  padding-bottom: auto;
+}
+#logo{
+  display: inline-flex;
+}
+
+#logo p{
+  margin-top: 5px;
+  font-size: 25px;
+}
+
+#logo img{
+  width: 65px;
+  border-radius: 50%;
+}
+
+header .social-icons{
+  margin-top: 5px;
+  display: inline-flex;
+  font-size:25px;
+  padding-right: 5px;
+  list-style-type: none;
+}
+
+header .social-icons li{
+  margin-right: 10px;
+}
+
+header .social-icons p{
+  font-size: 20px !important;
+}
+
+header .social-icons a{
+  color: white;
+}
+
+header .social-icons a:hover{
+  color:red;
+}
+
+/* End of Header section */
+
+
+/* Start of Nav section */
+nav{
+  background-color: #132633;
+  list-style-type: none;
+  display: inline-flex;
+  color: white;
+}
+nav li{
+  width: 100%;
+  margin: auto;
+  padding: 5px;  
+  font-size: 20px;
+}
+
+nav li:hover{
+  background-color: rgb(74, 74, 78);
+}
+
+/* End of Nav section */
+
+
+.pre-body{
+  background-image: url("../img/hack.jpg");
+}
+
+.pre-body .row{
+  padding: 2;
+}
+
+.pre-body h2{
+  margin-top: 60px;
+  
+}
+
+footer{
+  padding: 5px;
+  font-size: 17px;
+  background-color: black;
+  color: white;
+  height: 40px;
+}
+
